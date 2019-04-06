@@ -1,0 +1,25 @@
+footer .row{
+    margin-top: 40px;
+    color: #707070;
+}
+footer .row p{
+    padding-top: 10px;
+}
+footer .row input{
+    font-weight: 200;
+    padding: 10px 10px;
+    border: none;
+    background-color: #454545;
+    margin: 3px;
+    color: #838383;
+}
+footer{
+    height: ;
+    background-color: #252525;
+}
+.vk{
+    background-image: url("../img/social_sprite.png");
+    height: 48px;
+    width: 230px;
+    display: inline-block;
+}

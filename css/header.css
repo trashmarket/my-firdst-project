@@ -1,0 +1,110 @@
+.top_nav{
+    background-color: #191919;
+    color:#CFAC7F;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    z-index: 100;
+}
+.contact_block i{
+    display: block;
+    background-color: #285360;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    float: left;
+    text-align: center;
+    line-height: 34px;
+    
+}
+.Call{
+    display: flex;
+    justify-content: flex-end;
+}
+.contact_block{
+    justify-content: center
+    
+}
+.contact_block span{
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 34px;
+    
+}
+body{
+    background: url(../img/arches.png);
+    
+}
+.top-meny>li:hover{
+    
+    border-radius: 50%;
+}
+.top-meny>li:after{
+    content: "";
+    height: 5px;
+    display: block;
+    background-color: #09c;
+    width: 0;
+    margin: auto;
+    
+}
+.top-meny>li:hover:after{
+    width: 100%;
+    transition: all 0.3s ease-in 0.1s;
+    border-radius: 50%;
+}
+.sub-menu{
+    background: #fff;
+    width: 200px;
+    margin-top: 5px;
+/*    z-index: -1;*/
+    position: absolute;
+/*
+    visibility: none;
+    opacity: 0;
+*/
+    padding-left: 0;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
+    display: none;
+}
+
+
+.sub-menu>li{
+    list-style: none;
+}
+
+.sub-menu>li>a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    color: #333;
+    border-top: solid 1px #eaeaea;
+}
+.sub-menu>li:hover>a{
+    padding-left: 15px;
+    transition: all 0.3s ease-in;
+    background: rgba(0,153,204, 0.25);
+}
+.d{
+    display: none;
+}
+.dscroll{
+    height: 200px;
+    overflow: scroll;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 104;
+    
+}
+
+/*
+@media(min-width: 700px){
+    .top-meny>li:hover>.sub-menu{
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.3s ease-in 0.1s;
+    z-index: 10;
+}
+}*/

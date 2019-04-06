@@ -1,0 +1,66 @@
+
+
+.sliders{
+    position: relative;
+}
+
+.chapter{
+    text-align: center;
+    margin-top:20px;
+    font-size: 35px;
+    font-weight: bold;
+        
+}
+
+.info {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 45px;
+        
+}
+.info i{
+    font-size: 50px;
+    
+}
+.info p{
+    font-size: 20px;
+}
+
+.info span{
+    font-family: fantasy;
+    font-size: 18px;
+    margin: 20px
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 0 auto 50px;
+    width: 90%;
+    color: #333333;
+    line-height: 1.1
+}
+
+.slide_line{
+    background: url(../img/building-1080599_1920.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-color:rgba(0,0,0,.3);
+    background-blend-mode: darken;
+}
+.main{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+h1{
+    color:snow;
+    display: block;
+    font-size: 3.5em;
+    font-weight: 300;
+    margin: 0 auto 50px;
+    
+}
